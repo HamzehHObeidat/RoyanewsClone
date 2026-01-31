@@ -43,14 +43,8 @@ npm -v
 ### 1️⃣ Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/royanews-clone.git
-cd royanews-clone
-```
-
-Or if you already have the project folder:
-
-```bash
-cd royanews-clone
+git clone https://github.com/HamzehHObeidat/RoyanewsClone.git
+cd RoyanewsClone
 ```
 
 ---
