@@ -25,17 +25,6 @@ function Footer() {
             <img src="/google.webp" alt="Google Play" className="h-10" />
           </a>
         </div>
-
-        {/* <div className="flex justify-center gap-4 pt-4">
-          <SocialIcon icon={<Facebook />} label="فيسبوك" />
-          <SocialIcon icon={<Twitter />} label="تويتر" />
-          <SocialIcon icon={<Instagram />} label="انستاجرام" />
-          <SocialIcon icon={<MessageCircle />} label="واتساب" />
-          <SocialIcon icon={<Youtube />} label="يوتيوب" />
-          <SocialIcon icon={<Send />} label="تيليغرام" />
-        </div> */}
-
-        {/* Terms */}
         <div className="flex justify-center gap-6 pt-4 text-sm text-gray-400">
           <a href="/privacy-policy" className="hover:text-white">
             سياسة الخصوصية
@@ -48,19 +37,8 @@ function Footer() {
           </a>
         </div>
       </div>
-
-      {/* Mobile Footer Menu */}
-      {/* <nav className="fixed bottom-0 left-0 right-0 bg-[#0f1e3a] border-t border-white/10 md:hidden">
-        <ul className="flex justify-around py-2 text-xs">
-          <MobileItem icon={<Home />} label="الرئيسية" active />
-          <MobileItem icon={<Bell />} label="عواجل" />
-          <MobileItem icon={<Radio />} label="المباشر" />
-          <MobileItem icon={<Clock />} label="أحدث الأخبار" />
-          <MobileItem icon={<TrendingUp />} label="الأكثر شيوعًا" />
-        </ul>
-      </nav> */}
     </footer>
-  )
+  );
 }
 
-export default Footer
+export default Footer;
